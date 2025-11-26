@@ -1,4 +1,5 @@
 grade = ""
+nama = str(input("masukkan nama: "))
 nilai = int(input("masukkan nilai: "))
 
 if nilai >= 90:
@@ -10,4 +11,5 @@ elif nilai >= 60 and nilai <= 79:
 else:
     grade = "D"
 
+print("nama: " + nama)
 print("grade nilai anda adalah " + grade)
